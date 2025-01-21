@@ -62,25 +62,23 @@ A feature-rich, interactive web-based application that replicates essential func
 ## 📖 Setup Instructions
 
 ### 1. **Clone the Repository**
-```bash
+```
 git clone <repository-url>
 cd <repository-folder>
+```
 2. Set Up Virtual Environment
-bash
-Copy
-Edit
+```
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 3. Install Dependencies
-bash
-Copy
-Edit
+```
 pip install -r requirements.txt
+```
 4. Run the Application
-bash
-Copy
-Edit
+```
 streamlit run app.py
+```
 5. Access the App
 Open the link provided in the terminal (e.g., http://localhost:8501) in your browser.
 
@@ -100,15 +98,13 @@ We welcome contributions! To contribute:
 
 Fork the repository.
 Create a new branch:
-bash
-Copy
-Edit
+```
 git checkout -b feature-branch
+```
 Make your changes and commit:
-bash
-Copy
-Edit
+```
 git commit -m "Description of changes"
+```
 Push your branch and open a pull request.
 📜 License
 This project is open-source and available under the MIT License.
@@ -118,47 +114,37 @@ Prepare the Project
 
 Place the README.md file in the root directory.
 Add a requirements.txt file listing dependencies:
-plaintext
-Copy
-Edit
+
 pandas
 numpy
 streamlit
 openpyxl
 Initialize Git
 
-bash
-Copy
-Edit
+```
 git init
+```
 Add Files to Git
 
-bash
-Copy
-Edit
+```
 git add .
+```
 Commit Changes
 
-bash
-Copy
-Edit
+```
 git commit -m "Initial commit with Google Sheets mimic project"
+```
 Push to GitHub
 
-bash
-Copy
-Edit
+```
 git remote add origin <repository-url>
 git branch -M main
 git push -u origin main
+```
 🔥 Ready to Explore?
 Clone the repository, run the app, and experience the Google Sheets Mimic in action!
 
-vbnet
-Copy
-Edit
 
-This file is now polished, comprehensive, and formatted for GitHub, including all necessary details about setup, features, and contribution. Let me know if you need further edits!
 
 
 
